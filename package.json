@@ -1,0 +1,37 @@
+{
+  "name": "promptpilot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "PromptPilot — AI chat workspace with prompt library, one-click exports, and polished UX.",
+  "author": "Maaz Ansari <maazansari25667@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AnsariTech-25667/PromptPilot.git"
+  },
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^6.32.0",
+    "axios": "^1.8.3",
+    "mongoose": "^8.12.1",
+    "next": "^15.2.3",
+    "openai": "^4.87.3",
+    "prismjs": "^1.30.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-hot-toast": "^2.5.2",
+    "react-markdown": "^10.1.0",
+    "svix": "^1.61.4"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "^15.2.3",
+    "tailwindcss": "^4"
+  }
+}
